@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.5.94/css/materialdesignicons.min.css">
-    <HelloWorld/>
+    <CrudContatos/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CrudContatos from './components/CrudContatos.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    CrudContatos
   }
 }
 </script>
